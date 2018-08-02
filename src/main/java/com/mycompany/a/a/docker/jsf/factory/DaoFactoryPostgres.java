@@ -8,6 +8,7 @@ package com.mycompany.a.a.docker.jsf.factory;
 import com.mycompany.a.a.docker.jsf.dao.interfaces.ContatoDaoInterface;
 import com.mycompany.a.a.docker.jsf.dao.postgres.ContatoDaoPostgres;
 import com.mycompany.a.a.docker.jsf.interfaces.DaoFactoryInterface;
+import java.sql.SQLException;
 
 /**
  *
@@ -16,7 +17,7 @@ import com.mycompany.a.a.docker.jsf.interfaces.DaoFactoryInterface;
 public class DaoFactoryPostgres implements DaoFactoryInterface{
 
     @Override
-    public ContatoDaoInterface criaDaoContato() {
+    public ContatoDaoInterface criaDaoContato() throws SQLException, ClassNotFoundException {
         return new ContatoDaoPostgres();
     }
     

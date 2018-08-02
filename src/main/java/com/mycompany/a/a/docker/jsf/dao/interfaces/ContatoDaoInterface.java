@@ -20,4 +20,5 @@ public interface ContatoDaoInterface {
     public boolean deletar(Contato contato);
     public boolean login(String email, String senha);
     public Contato getContatoByNome(String nome);
+    public List<Contato> listarOrdenado();
 }
