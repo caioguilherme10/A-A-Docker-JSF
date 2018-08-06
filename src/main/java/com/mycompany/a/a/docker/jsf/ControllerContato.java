@@ -18,7 +18,7 @@ import javax.inject.Named;
  */
 @Named
 @SessionScoped
-public class controllerContato implements Serializable {
+public class ControllerContato implements Serializable {
     
     private Contato contato = new Contato();
     private GerenciadorContato gercontato = new GerenciadorContato();
