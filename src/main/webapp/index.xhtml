@@ -11,17 +11,23 @@
             <a class="brand-logo center">Login</a>
         </ui:define>
         <ui:define name="meio">
-
-  <div class="row">
-        <div class="col s12 m5">
-          <div class="card-panel teal">
-            <span class="white-text">I am a very simple card. I am good at containing small bits of information.
-            I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
-            </span>
-          </div>
-        </div>
-      </div>
-                
+            <div class="row">
+                <div class="col s6 offset-s3">
+                    <div class="card-panel teal">
+                        <h:form>
+                            <div class="input-field col s12">
+                                <label class="white-text">Email</label>
+                                <h:inputText value="#{ControllerContato.contato.email}"/>
+                            </div>
+                            <div class="input-field col s12">
+                                <label class="white-text">Senha</label>
+                                <h:inputText value="#{ControllerContato.contato.senha}" />
+                            </div>
+                            <h:commandButton value="entrar" action="#{ControllerContato.login()}" class="btn"/>
+                        </h:form>
+                    </div>
+                </div>
+            </div>    
         </ui:define>
     </ui:composition>
 </html>
