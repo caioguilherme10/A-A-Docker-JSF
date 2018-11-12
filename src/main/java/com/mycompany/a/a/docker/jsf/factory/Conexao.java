@@ -15,7 +15,7 @@ import java.sql.SQLException;
  */
 public class Conexao {
     
-    private static final String url = "jdbc:postgresql://localhost:5432/Docker-JSF";
+    private static final String url = "jdbc:postgresql://host-banco:5432/Docker-JSF";
     private static final String usuario = "postgres";
     private static final String senha = "postgres";
     

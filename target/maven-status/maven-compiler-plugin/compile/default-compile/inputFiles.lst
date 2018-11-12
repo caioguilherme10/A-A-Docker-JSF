@@ -1,0 +1,9 @@
+/home/ifpb/Documentos/A-A-Docker-JSF/src/main/java/com/mycompany/a/a/docker/jsf/model/Contato.java
+/home/ifpb/Documentos/A-A-Docker-JSF/src/main/java/com/mycompany/a/a/docker/jsf/factory/DaoFactory.java
+/home/ifpb/Documentos/A-A-Docker-JSF/src/main/java/com/mycompany/a/a/docker/jsf/dao/postgres/ContatoDaoPostgres.java
+/home/ifpb/Documentos/A-A-Docker-JSF/src/main/java/com/mycompany/a/a/docker/jsf/ControllerContato.java
+/home/ifpb/Documentos/A-A-Docker-JSF/src/main/java/com/mycompany/a/a/docker/jsf/factory/Conexao.java
+/home/ifpb/Documentos/A-A-Docker-JSF/src/main/java/com/mycompany/a/a/docker/jsf/gerenciadores/GerenciadorContato.java
+/home/ifpb/Documentos/A-A-Docker-JSF/src/main/java/com/mycompany/a/a/docker/jsf/interfaces/DaoFactoryInterface.java
+/home/ifpb/Documentos/A-A-Docker-JSF/src/main/java/com/mycompany/a/a/docker/jsf/factory/DaoFactoryPostgres.java
+/home/ifpb/Documentos/A-A-Docker-JSF/src/main/java/com/mycompany/a/a/docker/jsf/dao/interfaces/ContatoDaoInterface.java

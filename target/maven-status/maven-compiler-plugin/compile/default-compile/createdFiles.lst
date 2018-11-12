@@ -1,0 +1,9 @@
+com/mycompany/a/a/docker/jsf/factory/Conexao.class
+com/mycompany/a/a/docker/jsf/factory/DaoFactory.class
+com/mycompany/a/a/docker/jsf/ControllerContato.class
+com/mycompany/a/a/docker/jsf/dao/interfaces/ContatoDaoInterface.class
+com/mycompany/a/a/docker/jsf/interfaces/DaoFactoryInterface.class
+com/mycompany/a/a/docker/jsf/factory/DaoFactoryPostgres.class
+com/mycompany/a/a/docker/jsf/model/Contato.class
+com/mycompany/a/a/docker/jsf/gerenciadores/GerenciadorContato.class
+com/mycompany/a/a/docker/jsf/dao/postgres/ContatoDaoPostgres.class
